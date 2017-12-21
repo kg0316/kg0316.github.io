@@ -1,0 +1,61 @@
+/*
+This is a comment
+
+. is class selector
+# is id selector
+
+*/
+
+*{
+  margin:0;
+}
+
+
+
+h1 {
+  font-family: "Lucida Console", Monaco, monospace
+}
+h1{
+    background-color: pink;
+    margin-top: 30px;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace
+}
+h2{
+    background-color: pink;
+      margin-top: 70px;
+}
+
+li {
+  font-family: "Courier New", Courier, monospace
+}
+
+li {
+    backgr
+}
+
+.image {
+  height: 315px;
+  width: 300px;
+}
+
+#box2 {
+  float: left;
+}
+
+#box3 {
+  float: left;
+}
+
+#box4 {
+  float: left;
+}
+
+div {
+  margin-right: 180px;
+}
+
+/*
+list-style-type: none;

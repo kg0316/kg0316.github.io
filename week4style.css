@@ -1,0 +1,124 @@
+/* always put this at the beginning of your stylesheet */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.image {
+  height: 315px;
+  width: 300px;
+}
+
+.brand {
+  float: left;
+}
+
+/*this is our unordered list */
+.gnb {
+  float: right;
+  list-style-type: none;
+}
+
+ul.gnb > li {
+  float: left;
+  padding-right: 30px;
+}
+
+ul.gnb > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/*fixing a broken layout */
+.header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.landing {
+  height: 600px;
+  background-image: url(images/pokemon3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.landing-title {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "Times New Roman";
+  color: #dddddd;
+}
+
+#landing-description {
+  margin: 0 auto;
+}
+
+
+#box2 {
+  float: left;
+  margin-left: 140px;
+  margin-right: 100px;
+}
+
+#box3 {
+  float: left;
+  margin-right: 100px;
+}
+
+#box4 {
+  float: left;
+  margin-right: 140px;
+}
+
+
+
+div {
+  margin-right: auto;
+}
+
+
+.conatainer {
+  text-align: center;
+}
+
+
+ul.monster > li {
+  list-style: none;
+}
+
+
+.footer {
+  background-image: url(images/white.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+
+
+ul.ggg > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+ul.ggg > li {
+  float: middle;
+  padding-left: 30px;
+}
+
+
+.ggg {
+  float: middle;
+  list-style-type: none;
+}
