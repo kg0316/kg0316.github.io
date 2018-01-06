@@ -1,10 +1,22 @@
-.bgImage {
-  height: 900px;
-  background: url("http://businesstips.ph/wp-content/uploads/2016/12/14045575_1761075624164326_8110966307795246728_n.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+.jumbo {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.photographer {
-  margin-top: 20px;
+.landing {
+  height: 900px;
+  background-image: url(images/pictwo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.landing-title {
+  padding-top: 380px;
+  padding-bottom: 400px;
+  font-size: 120px;
+  font-weight: normal;
+  font-family: "Times New Roman";
+  color: #dddddd;
 }

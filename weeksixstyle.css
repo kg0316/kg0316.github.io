@@ -10,3 +10,10 @@ p {
 
 }
 /*/
+
+.bgImage {
+  height: 900px;
+  background-image: url(images/pictwo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

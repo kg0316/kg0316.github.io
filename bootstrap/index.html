@@ -10,87 +10,60 @@
   </head>
 
   <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">MAIN</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Photographer
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">photographer A</a>
-              <a class="dropdown-item" href="#">photographer B</a>
-              <a class="dropdown-item" href="#">photographer C</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">HOME</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Photographers
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Photographer A</a>
+            <a class="dropdown-item" href="#">Photographer B</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Photographer C</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+      <!--pic&title-->
+      <div class="landing">
+        <h2 class="landing-title">ZOOM IN</h2>
       </div>
-      </nav>
-    <section class="bgImage">
 
-    </section>
-
+    <!--jumbotron-->
     <section class="photographer">
       <div class="container">
         <div class="row">
-
-          <div class="col-4">
-            <div class="card">
-                 <div class="card-header">
-                   Featured
-                 </div>
-                 <div class="card-body">
-                   <h5 class="card-title">Special title treatment</h5>
-                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   <a href="#" class="btn btn-primary">Go somewhere</a>
-                 </div>
-               </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card">
-                 <div class="card-header">
-                   Featured
-                 </div>
-                 <div class="card-body">
-                   <h5 class="card-title">Special title treatment</h5>
-                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   <a href="#" class="btn btn-primary">Go somewhere</a>
-                 </div>
-               </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card">
-                 <div class="card-header">
-                   Featuredㅇ
-                 </div>
-                 <div class="card-body">
-                      4 * 3 =
-                      <form action="/action_page.php">
-       <input type="text" name="answer"><br>
-      <button>submit</button>
-    </form>
-                 </div>
-               </div>
-          </div>
-
+          <div class="jumbo">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </div>
         </div>
       </div>
     </section>
+
+
   </body>
 </html>
