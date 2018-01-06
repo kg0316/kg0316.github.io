@@ -1,0 +1,6 @@
+.bgImage {
+  height: 2000px;
+  background-image: url(images/artgallerytwo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
