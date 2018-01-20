@@ -1,5 +1,10 @@
+.jumbo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .bgImage {
-  height: 2000px;
+  height: 1940px;
   background-image: url(images/artgallerytwo.png);
   background-repeat: no-repeat;
   background-size: 100%;

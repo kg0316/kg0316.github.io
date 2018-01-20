@@ -1,17 +1,15 @@
 <!DOCTYPE>
 <html>
   <head>
-    <title>Boostrap practice</title>
+    <title>Welcome</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="contactstyle.css">
   </head>
 
   <body>
-
-    <!--nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html">HOME</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +31,7 @@
             <a class="dropdown-item" href="photographerC.html">Photographer C</a>
           </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
@@ -44,35 +42,48 @@
     </div>
   </nav>
 
-      <!--pic&title-->
-      <div class="landing">
-        <h2 class="landing-title">ZOOM IN</h2>
-      </div>
-
-    <!--jumbotron-->
-    <section class="photographer">
-      <div class="container">
-        <div class="row">
-          <div class="jumbo">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    </div>
+<!--form-->
+<div class="box">
+  <div class="card" style="width: 30rem;">
+    <div class="contact-us">
+      <div class="card-body">
+        <h2 class="card-title">GET IN TOUCH</h2>
+        <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="form">Email</label>
+            <br>monkeypower99@gmail.com
+          </div>
         </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Title">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Text">
+        </div>
+          <button type="submit" class="btn btn-primary">send</button>
+        </form>
       </div>
-    </section>
-<!--
-<object width="300" height="25"><param name="movie" value="###"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="###" type="application/x-shockwave-flash" width="300" height="25" allowscriptaccess="always" allowfullscreen="true"></embed></object>
--->
+    </div>
 
-      <div class="footer">
-        <ul class="ggg">
-          <li><a href="#">INSTAGRAM</a></li>
-          <li><a href="#">TWITTER</a></li>
-          <li><a href="#">FACEBOOK</a></li>
-        </ul>
-      </div>
+  </div>
+</div>
+
+
+
+        <div class="footer">
+          <ul class="ggg">
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">TWITTER</a></li>
+            <li><a href="#">FACEBOOK</a></li>
+          </ul>
+        </div>
 
   </body>
-</html>
+  </html>
