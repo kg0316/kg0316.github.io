@@ -42,13 +42,14 @@ ul.ggg > li > a {
 }
 
 
-.box {
+#contactpage {
   height: 900px;
   background-image: url(images/pick.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.contact-us {
+.contact-form {
   
+
 }

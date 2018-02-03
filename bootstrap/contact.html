@@ -6,10 +6,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="contactstyle.css">
+    <link rel="stylesheet" type="text/css" href="contactstyle.scss">
   </head>
 
   <body>
+<header id="contactpage">
+  <div class="home-inner">
     <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html">HOME</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,12 +25,11 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Photographers
+            Drawings
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="photographerA.html">Photographer A</a>
-            <a class="dropdown-item" href="photographerB.html">Photographer B</a>
-            <a class="dropdown-item" href="photographerC.html">Photographer C</a>
+            <a class="dropdown-item" href="photographerA.html">Imitation</a>
+            <a class="dropdown-item" href="photographerB.html">Croquis</a>
           </div>
         </li>
         <li class="nav-item active">
@@ -43,7 +44,43 @@
   </nav>
 
 <!--form-->
-<div class="box">
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-8">
+      </div>
+       <div class="col-lg-4">
+         <div class="contact-form mt150">
+             <div class="card text-center card-form" style="background-color: ">
+               <div class="card-body" style="text-">
+                 <h3>Get in touch</h3>
+                 <p>please fill out this form to register</p>
+                 <form>
+                   <div class="form-gorup">
+                     <input type="Name" class="form-control fomr-control-lg" placeholder="Name">
+                   </div>
+                   <div class="form-gorup">
+                     <input type="Email" class="form-control fomr-control-lg" placeholder="Email">
+                   </div>
+                   <div class="form-gorup">
+                     <input type="Title" class="form-control fomr-control-lg" placeholder="Title">
+                   </div>
+                   <div class="form-gorup">
+                     <input type="Text" class="form-control fomr-control-lg" placeholder="Text">
+                   </div>
+                   <input type="submit" class="btn btn-outline-light">
+                 </form>
+                    <button type="button" class="btn btn-light">send</button>
+               </div>
+             </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!--
   <div class="card" style="width: 30rem;">
     <div class="contact-us">
       <div class="card-body">
@@ -71,8 +108,8 @@
         </form>
       </div>
     </div>
-
   </div>
+</div>
 </div>
 
 
@@ -84,6 +121,7 @@
             <li><a href="#">FACEBOOK</a></li>
           </ul>
         </div>
+      -->
 
   </body>
   </html>

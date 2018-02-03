@@ -1,36 +1,22 @@
-
 .jumbo {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.landing {
-  height: 900px;
-  background-image: url(images/pictwo.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  text-align: center;
+.boxone {
+  weight: 300px;
 }
-
-.landing-title {
-  padding-top: 380px;
-  padding-bottom: 400px;
-  font-size: 120px;
-  font-weight: normal;
-  font-family: "Times New Roman";
-  color: #dddddd;
-}
-
 
 .footer {
-  height: 65px;
+  background-color: white;
+  height: 30px;
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: bottom;
 }
 
 ul {
-  margin-top: 40px;
+  margin-top: 9px;
   display: flex;
   justify-content: center;
 }
@@ -53,4 +39,16 @@ ul.ggg > li > a {
 .ggg {
   /* color: white; */
   list-style-type: none;
+}
+
+
+#contactpage {
+  height: 900px;
+  background-image: url('images/pick.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mt150 {
+   margin-top: 150px;
 }
