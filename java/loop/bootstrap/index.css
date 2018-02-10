@@ -1,12 +1,7 @@
 
 
-.jumbo {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .landing {
-  height: 900px;
+  height: 850px;
   background-image: url(images/pictwo.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -23,15 +18,10 @@
 }
 
 
-.footer {
-  height: 65px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  text-align: bottom;
-}
+
 
 ul {
-  margin-top: 40px;
+
   display: flex;
   justify-content: center;
 }
@@ -40,7 +30,7 @@ ul.ggg > li {
   /* float: left; */
   padding-left: 30px;
   margin-right: 100px;
-  margin-top: 25px;
+  
   /* color:white; */
 }
 

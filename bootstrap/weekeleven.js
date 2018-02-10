@@ -47,9 +47,9 @@ console.log(2 < 3 && 2 === "2");
 //either condition 1 OR condition 2 have to be true
 // (condition 1) ll (condition 2)
 // true ll true : true
-console.log(2 < 3 ll 2 == "2");
+console.log(2 < 3 || 2 == "2");
 // true ll flase : true
-console.log(2 < 3 ll 2 ==="2");
+console.log(2 < 3 || 2 ==="2");
 //false ll true : true
 //false ll false : false
 
@@ -72,20 +72,20 @@ console.log(3 !=4); //true
 // if, if else, else if
 
 // 1. if statements
-if (condition) {
-  // executable codes
-  // codes you want to be executed when this condition is true
-}
+// if (condition) {
+//   // executable codes
+//   // codes you want to be executed when this condition is true
+// }
 
 if ( 3 == "3") {
   console.log("equality operator == doesn't check the data types.");
 }
 
 // 2. if else statement
-if (condition) {
-  //if the condition is true, do things
-  //codes
-}
+// if (condition) {
+//   //if the condition is true, do things
+//   //codes
+// }
 
 if (3 === "3") {
 console.log("Equality operator == doesn't check the data types.");
@@ -97,21 +97,20 @@ if (3 === "3") {
 console.log("Equality operator == doesn't check the data types.");
 }
 
-// 3. else if statement
-if (condition 1) {
+// 3. else if statement?if (condition 1) {
   // if condition 1 is true, do this
   //codes
-} else if (condition 2) {
+// } else if (condition 2) {
   // if condition 2 is true, do this
   //codes
   // if both conditions 1 and 2 are false, move on
-} else if (condition 3) {
+// } else if (condition 3) {
   // if condition 3 is true, do this
   //codes
-} else {
+// } else {
 //if all conditions are not true, do this
 //codes
-}
+// }
 
 
 
@@ -121,16 +120,16 @@ if (condition 1) {
 // loop: when you want to repeat something as long as it satisfies a certain condition
 //when this certainc condition is no longer stisfied, the loop will stop operating
 
-while (it is before 12pm) {
-  package each product
-  stamp as seal
-}
+// while (it is before 12pm) {
+//   package each product
+//   stamp as seal
+// }
 
-while (condition) {
+// while (condition) {
   //while this condition is satisfied, execute thes codes
-}
+// }
 
-let i = 0; // initialise a variable
+var i = 0; // initialise a variable
 
 // count up to 9
 while (i < 10) { // as long as i is less than 10
@@ -151,13 +150,13 @@ while (i < 10) { // as long as i is less than 10
 // } while (user says no)
 
 
-do {
-  //executable codes
-} while (condition)
+// do {
+//   //executable codes
+// } while (condition)
 
-do {
-console.log("Would you like to order something?");
-} while (user says no)
+// do {
+// console.log("Would you like to order something?");
+// } while (user says no)
 
 let j = 10;
 do {
@@ -166,10 +165,10 @@ do {
 } while (j < 10)
 
 
-// 3. for loop
-for (initialise; condiiton; update) {
-  //do something
-}
+// // 3. for loop
+// for (initialise; condiiton; update) {
+//   //do something
+// }
 
 let k = 0;
 while (k < 10) {
@@ -190,7 +189,7 @@ for (let k = 0; k < 10; k ++) {
 // function has 4 parts: identifier, function, parameter, actions
 
 // create a function
-var add = function(a, b); {
+var add = function(a, b) {
   var sum = a +b;
   return sum;
 }
@@ -228,12 +227,12 @@ for (var i = 0; i < 10; i++) {
 
 //call a function inside loop
 for(var i=0; i<10; i++) {
-  substractPosAns();
+  subtractPosAns();
 }
 
 let m = 0;
 while (m < 10) {
-  substractPosAns();
+  subtractPosAns();
   m++;
 }
 
@@ -244,16 +243,17 @@ while (m < 10) {
 
 
 
-Q1
-var a = "3";
-var b = "4";
-
-Q2
+//Q1
+var a = 3;
+var b = 4;
 
 
+//Q4
+var multiply = function() {
+  var a = Math.ceil(Math.random() * 100)
+  var b = Math.ceil(Math.random() * 100)
+  console.log(a + "*" + b + "=")
+}
 
-Q3
 
-
-
-Q4
+multiply();
